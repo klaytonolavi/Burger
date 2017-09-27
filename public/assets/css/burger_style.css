@@ -1,0 +1,38 @@
+body {
+    background-color: #ffedd6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #140C0C;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#burgersNotEaten {
+    width: 50%;
+    float: left;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+#burgersEaten {
+    width: 50%;
+    float: right;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+#addBurger {
+    clear: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+ul {
+    font-size: 18px;
+}
