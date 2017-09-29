@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 
 // does this have to be the same as the port in the mySQL connection??
-var port = 3000;
+var port = 3001;
 
 var app = express();
 

@@ -13,4 +13,3 @@ VALUES ("Double Double Burger", false);
 INSERT INTO burgers (burger_name, devoured)
 VALUES ("Vegan Burger", false);
 
-DELETE FROM burgers WHERE devoured = true;

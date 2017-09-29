@@ -10,11 +10,12 @@
   {{#each burgers}}
     {{#unless this.devoured}}
       <ul>
+        {{this.id}}
         {{this.burger_name}}
 
         <form action="/{{this.id}}?_method=PUT" method="POST">
-          <input type="hidden" name="devour" value="true">
-          <button type="button" class="btn btn-success">DEVOUR!</button>
+          <input type="hidden" name="devoured" value="true">
+          <button type="submit" class="btn btn-success">DEVOUR!</button>
         </form>
       </ul>
     {{/unless}}
@@ -30,6 +31,7 @@
   {{#each burgers}}
     {{#if this.devoured}}
       <ul>
+        {{this.id}}
         {{this.burger_name}}
       </ul>
     {{/if}}
@@ -40,12 +42,11 @@
 <div id="addBurger">
 
 <h2>Add a Burger</h2>
-<form class="create-update-form" action="/" method="POST">
 
-  <div class="form-group">
+<form method="POST" action="/">
+<textarea "Add Buger" id="burgerName" name="burgerName" required></textarea><br>
     <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+  <button type="submit" class="btn btn-success">ADD BURGER!</button>
   </div>
-  <button type="button" class="btn btn-success">ADD BURGER!</button>
 </form>
 </div>
