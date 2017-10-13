@@ -4,4 +4,4 @@ Burger is a back-end application that uses Node, Express, Handlebars, mySQL and 
 
 On the front end, users can add their own burger to the menu. 
 
-![Example](images/Capture1.png?raw=true "Burger Image")
+![Example](./images/Capture1.png?raw=true "Burger Image")
